@@ -1,0 +1,9 @@
+getocr.exe为上传图片并获取ocr的返回值保存在train文件夹中
+对应的代码在getocr.py
+
+combine.exe为将返回值打包到一个文件中用于接下来的相似度比较，文件保存在train/result当中，名称为
+combined_texts.json
+对应代码在combine.py当中
+
+compare_tf.exe为相似性比较，比较的文件为train/result文件夹下的combined_texts.json与zh.train.json(此为标准答案)
+对应代码在compare_tf.py中

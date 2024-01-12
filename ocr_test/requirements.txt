@@ -1,0 +1,7 @@
+sklearn
+re
+requests
+base64
+json
+jieba
+pyinstaller
